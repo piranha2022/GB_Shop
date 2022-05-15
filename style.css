@@ -40,7 +40,7 @@
   align-items: flex-end;
 }
 
-.top .img-left {
+*/ .top .img-left {
   margin-right: 41px;
 }
 
@@ -56,6 +56,7 @@
   justify-content: space-around;
   max-width: 1600px;
   width: 100%;
+
 }
 
 .top .heading .top_box {
