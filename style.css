@@ -57,18 +57,25 @@
   justify-content: space-around;
   max-width: 1600px;
   width: 100%;
-
+  background: #F1E4E6;
+  background-image: url(img/top/men.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  height: 764px;
+  position: relative;
 }
 
 .top .heading .top_box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 331px;
+  position: absolute;
+  top: 290px;
+  right: 331px;
 }
 
 .top .heading .top_box-text {
-  margin-top: 290px;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
