@@ -34,13 +34,17 @@
 .seach {
   position: absolute;
   top: 3px;
-  left: 36px;
+  left: 30px;
   display: flex;
   display: none;
   border-radius: 20px;
 }
 
 .img-right:hover .seach {
+  display: flex;
+}
+
+.img-right:hover {
   display: flex;
 }
 
@@ -61,6 +65,7 @@
 .top .img-right {
   margin-left: 33px;
   position: relative;
+  padding: 1px;
 }
 
 .top .heading {
