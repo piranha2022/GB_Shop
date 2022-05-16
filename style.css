@@ -31,6 +31,19 @@
   align-items: flex-end;
 }
 
+.seach {
+  position: absolute;
+  top: 3px;
+  left: 36px;
+  display: flex;
+  display: none;
+  border-radius: 20px;
+}
+
+.img-right:hover .seach {
+  display: flex;
+}
+
 .right_menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +60,7 @@
 
 .top .img-right {
   margin-left: 33px;
+  position: relative;
 }
 
 .top .heading {
