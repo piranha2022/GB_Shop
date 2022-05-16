@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Lato;
   outline: none;
 }
 
@@ -466,6 +467,8 @@
   color: #FFFFFF;
   top: 0;
   right: 0;
+  text-decoration: none;
+  line-height: 50px;
 }
 
 .copyright_footer {
