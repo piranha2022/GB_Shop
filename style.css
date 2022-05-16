@@ -347,12 +347,20 @@
 
 .container_footer {
   display: flex;
+  justify-content: space-around;
   height: 341px;
 }
 
-.delivery {
+.icon_footer {
+  height: 39px;
+  margin-top: 103px;
+  margin-bottom: 28px;
+}
+
+.sale_footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .heading_footer_black {
@@ -360,6 +368,8 @@
   font-size: 19.96px;
   line-height: 24px;
   color: #FBFBFB;
+  margin-bottom: 16px;
+
 }
 
 .text_footer_black {
@@ -367,7 +377,7 @@
   font-size: 13.972px;
   line-height: 17px;
   text-align: center;
-
+  width: 360px;
   color: #FBFBFB;
 }
 
@@ -399,7 +409,7 @@
   font-size: 24px;
   text-align: center;
   color: #222224;
-
+  line-height: 40px;
 }
 
 .reseption {
@@ -415,20 +425,78 @@
   flex-direction: column;
   align-items: center;
   width: 557px;
-  margin-top: 150px;
+  padding-top: 150px;
 }
 
-
+.form {
+  width: 317px;
+  height: 49px;
+  position: relative;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
 
 .e-mail {
   background: #E1E1E1;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  display: flex;
-  align-items: center;
-
+  padding: 7px 98px 7px 22px;
   color: #222224;
-
   opacity: 0.67;
+
+  height: 37px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+
+}
+
+.buttob_subscribe {
+  width: 100px;
+  height: 50px;
+  background: #E05C6E;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  top: 0;
+  right: 0;
+}
+
+.copyright_footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 230px 30px;
+  align-items: center;
+}
+
+
+.text_copy {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FBFBFB;
+}
+
+
+.social_icon {
+  display: flex;
+
+}
+
+.icon {
+  background: #FFFFFF;
+  width: 32px;
+  height: 32px;
+  margin-left: 7px;
+
+}
+
+.icon_red {
+  background: #F16D7F;
 }
