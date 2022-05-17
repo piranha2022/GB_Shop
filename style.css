@@ -80,7 +80,6 @@
   background-image: url(img/top/men.png);
   background-repeat: no-repeat;
   height: 764px;
-  position: relative;
 }
 
 .top .heading .top_box {
@@ -230,7 +229,10 @@
 .card-box .card_block .card {
   background: #f0e8e8;
   text-decoration: none;
+
 }
+
+
 
 .card-box .card_block .card .heading_text_card {
   font-weight: 400;
@@ -527,4 +529,38 @@
 
 .icon_red {
   background: #F16D7F;
+}
+
+.img_card {
+
+  position: relative;
+}
+
+
+
+.add {
+  display: none;
+  position: absolute;
+  top: 188px;
+  left: 110px;
+
+}
+
+.card:hover .card-1 {
+  filter: brightness(40%);
+
+}
+
+.card:hover .add {
+  display: flex;
+
+}
+
+.add:hover .card.card-1 {
+  filter: brightness(40%);
+}
+
+.img_card {
+  display: flex;
+  align-items: center;
 }
