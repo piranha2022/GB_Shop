@@ -288,12 +288,13 @@
 }
 
 .menu {
-  width: 232px;
-  height: 725px;
+  z-index: 2;
+  width: 260px;
+  height: 744px;
   background: #FFFFFF;
   position: absolute;
-  top: 79px;
-  right: 0;
+  top: 62px;
+  right: 120;
   padding-left: 34px;
   padding-top: 37px;
   display: -webkit-box;
