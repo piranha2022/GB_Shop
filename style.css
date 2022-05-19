@@ -176,6 +176,7 @@ body {
   margin: auto;
   text-align: center;
   display: block;
+  font-weight: 600;
 }
 
 .card-box .text_card {
@@ -508,4 +509,70 @@ body {
 .icon:hover {
   color: white;
   background: #E05C6E;
+}
+
+.heading_catalog {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #F1E4E6;
+  height: 148px;
+
+}
+
+.filter_catalog {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-right: 11px;
+}
+
+
+.top_text_catalog {
+  font-size: 24px;
+  line-height: 29px;
+  color: #F16D7F;
+}
+
+
+.text_catalog {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+}
+
+.red_text_catalog {
+  color: #F16D7F;
+}
+
+.page-catalog {
+  display: flex;
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 64px;
+  justify-content: flex-start;
+}
+
+.catalog_text {
+  margin-left: 304px;
+  margin-right: 11px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.text_margin_left {
+  margin-left: 28px;
+}
+
+.number_pages {
+  width: 284px;
+  height: 44px;
+  align-self: center;
+  margin-bottom: 96px;
+  margin-top: 16px;
 }
