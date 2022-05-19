@@ -58,14 +58,13 @@
   align-items: flex-end;
 }
 
-*/ .top .img-left {
+.top .img-left {
   margin-right: 41px;
 }
 
 .top .img-right {
   margin-left: 33px;
   position: relative;
-  padding: 1px;
 }
 
 .top .heading {
@@ -90,9 +89,9 @@
   top: 290px;
   right: 331px;
 }
+
 /* Хмелевский А.В. */
 .top .heading .top_box-text {
-
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -232,8 +231,6 @@
 
 }
 
-
-
 .card-box .card_block .card .heading_text_card {
   font-weight: 400;
   font-size: 13px;
@@ -319,6 +316,7 @@
 
 .drop_menu {
   text-decoration: none;
+
 }
 
 .drop_menu:hover .menu {
@@ -398,7 +396,6 @@
   line-height: 24px;
   color: #FBFBFB;
   margin-bottom: 16px;
-
 }
 
 .text_footer_black {
@@ -474,7 +471,6 @@
   padding: 7px 98px 7px 22px;
   color: #222224;
   opacity: 0.67;
-
   height: 37px;
   border-radius: 20px 0 0 20px;
   border: none;
@@ -514,10 +510,8 @@
   color: #FBFBFB;
 }
 
-
 .social_icon {
   display: flex;
-
 }
 
 .icon {
@@ -526,7 +520,6 @@
   width: 32px;
   height: 32px;
   margin-left: 7px;
-
 }
 
 .icon_red {
@@ -534,28 +527,22 @@
 }
 
 .img_card {
-
   position: relative;
 }
-
-
 
 .add {
   display: none;
   position: absolute;
   top: 188px;
   left: 110px;
-
 }
 
 .card:hover .card-1 {
   filter: brightness(40%);
-
 }
 
 .card:hover .add {
   display: flex;
-
 }
 
 .add:hover .card.card-1 {
