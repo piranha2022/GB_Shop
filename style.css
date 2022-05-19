@@ -19,19 +19,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 18px 240px 18px 231px;
 }
 
 .left_menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -53,12 +47,8 @@ body {
 }
 
 .right_menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
   align-items: flex-end;
 }
 
@@ -72,10 +62,7 @@ body {
 }
 
 .top .heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
   max-width: 1600px;
   width: 100%;
@@ -86,8 +73,6 @@ body {
 }
 
 .top .heading .top_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 290px;
@@ -96,8 +81,6 @@ body {
 
 /* Хмелевский А.В. */
 .top .heading .top_box-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -107,17 +90,11 @@ body {
 }
 
 .top .heading .top_box-text .text {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-weight: 900;
   font-size: 48px;
   line-height: 58px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   color: #222222;
   margin-left: 16px;
@@ -136,12 +113,7 @@ body {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   background: whitesmoke;
   padding-top: 64px;
@@ -151,8 +123,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -216,10 +186,7 @@ body {
 }
 
 .card-box .card_block {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
   justify-content: space-around;
   width: 360px;
   margin: auto;
@@ -277,8 +244,6 @@ body {
 .page-2 {
   margin: auto;
   margin-bottom: 48px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -295,9 +260,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   display: none;
 }
@@ -334,9 +296,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 }
 
