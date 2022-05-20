@@ -5,8 +5,9 @@
 }
 
 body {
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
+  background: whitesmoke;
 }
 
 .top {
@@ -117,13 +118,15 @@ body {
   flex-direction: column;
   background: whitesmoke;
   padding-top: 64px;
+  max-width: 1140px;
+  width: 100%;
 }
 
 .container .foto_container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 
@@ -140,6 +143,11 @@ body {
 .container .item_botton_container {
   margin: auto;
   position: relative;
+  width: 100%;
+}
+
+.acsessuar_img {
+  width: 100%;
 }
 
 .container .item_botton_container .text_block_botton_container {
@@ -188,15 +196,17 @@ body {
 
 .card-box .card_block {
   display: flex;
-  justify-content: space-around;
-  width: 360px;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin: auto;
-  margin-bottom: 30px;
 }
+
 
 .card-box .card_block .card {
   background: #f0e8e8;
   text-decoration: none;
+  width: 360px;
+  margin-bottom: 30px;
 
 }
 
@@ -221,9 +231,6 @@ body {
   color: #F16D7F;
 }
 
-.margin_img {
-  margin-left: 30px;
-}
 
 .button {
   font-size: 16px;
@@ -467,14 +474,85 @@ body {
 }
 
 .icon {
-  color: #000000;
-  background: #FFFFFF;
-  width: 32px;
-  height: 32px;
+  display: block;
   margin-left: 7px;
 }
 
-.icon_red {
+
+
+.fa {
+  display: flex;
+}
+
+.fa.fa-facebook-f:before {
+
+  line-height: 30px;
+}
+
+.fa-facebook-f {
+  width: 32px;
+  height: 32px;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.fa:hover.fa-facebook-f {
+  color: #FFFFFF;
+  background: #F16D7F;
+}
+
+.fa.fa-instagram:before {
+
+  line-height: 30px;
+}
+
+.fa-instagram {
+  width: 32px;
+  height: 32px;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.fa:hover.fa-instagram {
+  color: #FFFFFF;
+  background: #F16D7F;
+}
+
+.fa.fa-pinterest-p:before {
+
+  line-height: 30px;
+}
+
+.fa-pinterest-p {
+  width: 32px;
+  height: 32px;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.fa:hover.fa-pinterest-p {
+  color: #FFFFFF;
+  background: #F16D7F;
+}
+
+.fa.fa-twitter:before {
+  line-height: 30px;
+}
+
+.fa-twitter {
+  width: 32px;
+  height: 32px;
+  color: #000000;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+
+.fa:hover.fa-twitter {
+  color: #FFFFFF;
   background: #F16D7F;
 }
 
@@ -506,10 +584,6 @@ body {
   align-items: center;
 }
 
-.icon:hover {
-  color: white;
-  background: #E05C6E;
-}
 
 .heading_catalog {
   display: flex;
