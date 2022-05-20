@@ -207,8 +207,10 @@ body {
   text-decoration: none;
   width: 360px;
   margin-bottom: 30px;
+  display: block;
 
 }
+
 
 .card-box .card_block .card .heading_text_card {
   font-size: 13px;
@@ -561,6 +563,8 @@ body {
 }
 
 .add {
+  display: flex;
+  flex-direction: column;
   display: none;
   position: absolute;
   top: 188px;
