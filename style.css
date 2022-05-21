@@ -171,11 +171,7 @@ body {
   color: #FFFFFF;
 }
 
-.card-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+
 
 .card-box .heading_card {
   font-size: 30px;
@@ -187,20 +183,132 @@ body {
   font-weight: 600;
 }
 
-.card-box .text_card {
-  font-size: 14px;
-  line-height: 17px;
-  color: #9F9F9F;
-  margin: auto;
-}
+
 
 .card-box .card_block {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
 }
 
+
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  background: #F8F8F8;
+  width: 360px;
+  box-shadow: slategrey;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.item_link {
+  display: block;
+  text-decoration: none;
+}
+
+.item:hover .img_card {
+  filter: brightness(40%);
+}
+
+.img_card {
+  width: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  margin-left: 18px;
+}
+
+.item_sec {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.item_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+  margin-top: 12px;
+}
+
+.item_price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 18ox;
+  color: #F16D7F;
+  margin-top: 18px;
+}
+
+.add_box {
+  display: none;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  pointer-events: none;
+  top: 180px;
+}
+
+
+
+
+.item:hover .add_box {
+  display: flex;
+  box-shadow: #5D5D5D;
+}
+
+.add:hover {
+  box-shadow: 0 0 10px #FFFFFF;
+}
+
+.add_text {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
+
+.add {
+  display: block;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  top: 188px;
+  border: 1px solid #FFFFFF;
+  padding: 13px;
+  pointer-events: auto;
+}
+
+.item:hover .add {
+  display: flex;
+  box-shadow: #5D5D5D;
+}
+
+.add:hover {
+  box-shadow: 0 0 10px #FFFFFF;
+}
+
+.add_text {
+  display: block;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  margin-left: 8px;
+}
 
 .card-box .card_block .card {
   background: #f0e8e8;
@@ -212,26 +320,6 @@ body {
 }
 
 
-.card-box .card_block .card .heading_text_card {
-  font-size: 13px;
-  line-height: 16px;
-  color: #000000;
-  margin-top: 25px;
-  margin-bottom: 13px;
-  text-decoration: none;
-}
-
-.card-box .card_block .card .main_text_card {
-  margin-left: 16px;
-}
-
-.card-box .card_block .card .price {
-  font-size: 16px;
-  line-height: 19px;
-  margin-top: 18px;
-  margin-bottom: 20px;
-  color: #F16D7F;
-}
 
 
 .button {
@@ -562,14 +650,6 @@ body {
   position: relative;
 }
 
-.add {
-  display: flex;
-  flex-direction: column;
-  display: none;
-  position: absolute;
-  top: 188px;
-  left: 110px;
-}
 
 .card:hover .card-1 {
   filter: brightness(40%);
