@@ -173,6 +173,7 @@ body {
 
 
 
+
 .card-box .heading_card {
   font-size: 30px;
   line-height: 36px;
@@ -733,4 +734,111 @@ body {
   align-self: center;
   margin-bottom: 96px;
   margin-top: 16px;
+}
+
+
+
+.product {
+  height: 777px;
+  background: #F7F7F7;
+  background-image: url(img/card/top_product.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.product_card {
+
+  background: whitesmoke;
+  padding-top: 64px;
+  max-width: 1140px;
+  width: 100%;
+
+}
+
+.arrow_right {
+  position: absolute;
+  top: 364px;
+  right: 0;
+}
+
+.arrow_left {
+
+  position: absolute;
+  top: 364px;
+  left: 0;
+}
+
+
+
+
+.mochino {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #EAEAEA;
+  background: #FFFFFF;
+  margin: auto;
+  width: 1140px;
+  padding-top: 64px;
+  padding-bottom: 65px;
+
+}
+
+.mohito_collection {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 12px;
+  color: #F16D7F;
+}
+
+.mohito_cheap {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-top: 12px;
+  margin-bottom: 48px;
+}
+
+.mohito_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 555px;
+  color: #5E5E5E;
+  margin-bottom: 32px;
+}
+
+.mohito_price {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  margin-bottom: 65px;
+}
+
+.line {
+  border: 1px solid #EAEAEA;
+  width: 641px;
+}
+
+.block_nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 65px;
+}
+
+.mochino_button {
+  display: flex;
+  align-items: center;
+}
+
+.red_add {
+  margin-left: 23px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F26376;
 }
