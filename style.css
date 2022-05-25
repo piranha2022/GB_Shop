@@ -7,7 +7,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  background: whitesmoke;
+  /* background: whitesmoke; */
 }
 
 .top {
@@ -116,7 +116,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  background: whitesmoke;
+  background: white;
   padding-top: 64px;
   max-width: 1140px;
   width: 100%;
@@ -191,6 +191,8 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   margin: auto;
+  background: white;
+  margin-bottom: 98px;
 }
 
 
@@ -745,12 +747,13 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  z-index: 9;
 }
 
 .product_card {
 
-  background: whitesmoke;
-  padding-top: 64px;
+  background: white;
+  margin-top: 130px;
   max-width: 1140px;
   width: 100%;
 
@@ -769,6 +772,9 @@ body {
   left: 0;
 }
 
+.wooman_collection {
+  background: #ffff;
+}
 
 
 
@@ -782,7 +788,9 @@ body {
   width: 1140px;
   padding-top: 64px;
   padding-bottom: 65px;
-
+  position: relative;
+  z-index: 10;
+  margin-top: -48px;
 }
 
 .mohito_collection {
@@ -834,6 +842,7 @@ body {
 .mochino_button {
   display: flex;
   align-items: center;
+  margin-bottom: 0;
 }
 
 .red_add {
