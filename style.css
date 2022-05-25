@@ -839,6 +839,15 @@ body {
   margin-top: 65px;
 }
 
+.mohito_choose {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4D4D4D;
+  margin-right: 9px;
+  margin-left: 23px;
+}
+
 .mochino_button {
   display: flex;
   align-items: center;
