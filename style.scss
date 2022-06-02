@@ -322,13 +322,6 @@ body {
     box-shadow: 0 0 10px #FFFFFF;
 }
 
-.add_text {
-    display: block;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-    margin-left: 8px;
-}
 
 .card-box .card_block .card {
     background: #f0e8e8;
@@ -730,12 +723,16 @@ summary {
     color: #F16D7F;
 }
 
+.riht_heading_catalog {
+    display: flex;
+}
 
 .text_catalog {
     font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #636363;
+    text-decoration: none;
 }
 
 .red_text_catalog {
