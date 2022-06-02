@@ -409,8 +409,8 @@ body {
   height: 744px;
   background: #FFFFFF;
   position: absolute;
-  top: 62px;
-  right: 120;
+  top: 78px;
+  right: 0;
   padding-left: 34px;
   padding-top: 37px;
   display: -webkit-box;
@@ -420,7 +420,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  display: none;
   z-index: 11;
 }
 
@@ -428,26 +427,16 @@ body {
   position: absolute;
   top: 16px;
   right: 16px;
+  border: none;
+  background: none;
 }
 
-.close:hover .menu {
+.close:hover.menu {
   display: none;
 }
 
-.drop_menu {
-  text-decoration: none;
-}
-
-.drop_menu:hover .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu:hover {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+summary {
+  list-style-type: none;
 }
 
 .list_menu {
