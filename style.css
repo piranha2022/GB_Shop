@@ -409,6 +409,10 @@ body {
   display: block;
 }
 
+.num_page {
+  color: #5E5E5E;
+}
+
 @-webkit-keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
