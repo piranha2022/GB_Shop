@@ -679,15 +679,15 @@ summary {
   padding: 7px 98px 7px 22px;
   color: #222224;
   opacity: 0.67;
-  height: 37px;
+  height: 35px;
   border-radius: 20px 0 0 20px;
   border: none;
 }
 
 .buttob_subscribe {
   width: 100px;
-  height: 50px;
-  background: #E05C6E;
+  height: 46px;
+  background: #FFFFFF;
   border-radius: 0 20px 20px 0;
   border: none;
   font-size: 14px;
@@ -697,11 +697,17 @@ summary {
           align-items: center;
   text-align: center;
   position: absolute;
-  color: #FFFFFF;
-  top: 0;
+  color: #FF6A6A;
+  border: 1px solid #FF6A6A;
+  top: 3;
   right: 0;
   text-decoration: none;
-  line-height: 50px;
+  line-height: 42px;
+}
+
+.buttob_subscribe:hover {
+  color: #FFFFFF;
+  background: #F16D7F;
 }
 
 .copyright_footer {
@@ -879,6 +885,10 @@ summary {
   text-decoration: none;
 }
 
+.text_catalog:hover {
+  color: violet;
+}
+
 .red_text_catalog {
   color: #F16D7F;
 }
@@ -974,6 +984,9 @@ summary {
 }
 
 .mohito_collection {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -1055,5 +1068,135 @@ summary {
 .button:hover .red_add {
   color: #FFFFFF;
   image-rendering: auto;
+}
+
+.registraition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.heading_registration {
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F8F3F4;
+}
+
+.heading_registr {
+  margin-left: 230px;
+  line-height: 148px;
+  font-size: 24px;
+  color: #F16D7F;
+}
+
+.text_registr {
+  width: 700px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 22px;
+  margin-bottom: 21px;
+}
+
+.form_registr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 22px;
+  margin-bottom: 21px;
+}
+
+.list_regist {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  list-style-type: none;
+  color: #000000;
+}
+
+.top_registration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.form_registraition {
+  margin-top: 64px;
+}
+
+.input_registr {
+  margin-top: 20px;
+  height: 44px;
+  width: 358px;
+}
+
+.item_registr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 16px;
+}
+
+.more_characters {
+  display: block;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 16px;
+  width: 359px;
+  color: #B1B1B1;
+}
+
+.check {
+  margin-right: 23px;
+}
+
+.loyalty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loyalty_header {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  margin-top: 64px;
+}
+
+.button_registr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button_registr_new {
+  margin-top: 39px;
+  margin-left: 0;
+}
+
+.fa-arrow-right {
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
