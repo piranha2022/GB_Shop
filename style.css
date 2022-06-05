@@ -84,10 +84,8 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  max-width: 1600px;
   width: 100%;
   background: #F1E4E6;
-  background-image: url(img/top/men.png);
   background-repeat: no-repeat;
   height: 764px;
 }
@@ -96,9 +94,16 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
-  top: 290px;
-  right: 331px;
+  width: 50%;
+  margin-top: 290px;
+  margin-left: -10%;
+}
+
+.top_img {
+  z-index: 30;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
 }
 
 /* Хмелевский А.В. */
@@ -259,7 +264,6 @@ body {
       flex-wrap: wrap;
   margin: auto;
   background: white;
-  margin-bottom: 98px;
 }
 
 .item {
@@ -272,7 +276,10 @@ body {
           flex-direction: column;
   margin-bottom: 30px;
   background: #F8F8F8;
-  width: 360px;
+  width: 32%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   -webkit-box-shadow: slategrey;
           box-shadow: slategrey;
   border-radius: 10px 10px 10px 10px;
@@ -291,7 +298,7 @@ body {
 }
 
 .img_card {
-  width: auto;
+  width: 100%;
   border-radius: 10px 10px 0 0;
 }
 
@@ -324,6 +331,7 @@ body {
 }
 
 .item_price {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -463,7 +471,7 @@ body {
   border: 1px solid #FF6A6A;
   padding: 14px 38px;
   margin: auto;
-  margin-top: 48px;
+  margin-top: 15px;
   margin-bottom: 95px;
   text-decoration: none;
   -webkit-animation: vibrate-1 .3s linear infinite both;
@@ -485,7 +493,7 @@ body {
 
 .menu {
   z-index: 2;
-  width: 260px;
+  width: 16%;
   height: 744px;
   background: #FFFFFF;
   position: absolute;
@@ -1070,14 +1078,8 @@ summary {
   image-rendering: auto;
 }
 
-.registraition {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.top_registraition {
+  background: white;
 }
 
 .heading_registration {
@@ -1097,6 +1099,204 @@ summary {
   line-height: 148px;
   font-size: 24px;
   color: #F16D7F;
+}
+
+.top_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 1140px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 96px;
+}
+
+.img_cart {
+  height: 100%;
+}
+
+.item_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 652px;
+  height: 306px;
+  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  margin-bottom: 40px;
+}
+
+.text_cart {
+  margin-left: 31px;
+  margin-top: 22px;
+}
+
+.heading_cart {
+  margin-bottom: 42px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+  width: 75%;
+}
+
+.cart_text_mini {
+  margin-bottom: 6px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+
+.cart_price {
+  margin-left: 20px;
+  margin-right: 34px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.item_form_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cart_bank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #F5F3F3;
+  height: 214px;
+  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+}
+
+.total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 34px;
+}
+
+.sub_total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+}
+
+.price_bank {
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  margin-left: 20px;
+  margin-right: 34px;
+  color: #4A4A4A;
+}
+
+.grand_total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin-top: 12px;
+}
+
+.grand_cart_bank {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+
+.bank_cart {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+  margin-right: 34px;
+  margin-left: 20px;
+}
+
+.line_cart_bank {
+  margin: 21px 43px 0;
+  background: #E2E2E2;
+}
+
+.button_mini_cart {
+  font-size: 11px;
+  line-height: 13px;
+  color: #4A4A4A;
+  padding: 9px 15px;
+  margin-left: 0;
+  margin-top: 34px;
+}
+
+.button_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 73px;
+}
+
+.button_cart_item_left {
+  margin-left: 0;
+  display: block;
+  margin-right: 20%;
+  border: 1px solid #A4A4A4;
+  color: #000000;
+}
+
+.button_cart_item {
+  border: 1px solid #A4A4A4;
+  color: #000000;
+}
+
+.right_cart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  margin-top: 81px;
 }
 
 .text_registr {
@@ -1119,6 +1319,7 @@ summary {
   margin-top: 22px;
   margin-bottom: 21px;
   max-width: 652px;
+  margin-left: 128px;
 }
 
 .list_regist {
@@ -1139,9 +1340,11 @@ summary {
 
 .form_registraition {
   margin-top: 64px;
+  margin-left: 230px;
 }
 
 .your_name {
+  display: block;
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
