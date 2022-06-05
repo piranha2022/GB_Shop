@@ -932,7 +932,6 @@ summary {
 }
 
 .text_registr {
-    width: 700px;
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
@@ -946,6 +945,8 @@ summary {
     flex-direction: column;
     margin-top: 22px;
     margin-bottom: 21px;
+    max-width: 652px;
+    ;
 }
 
 .list_regist {
@@ -965,13 +966,45 @@ summary {
     margin-top: 64px;
 }
 
+.your_name {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-top: 34px;
+}
+
 .input_registr {
     margin-top: 20px;
     height: 44px;
     width: 358px;
+    padding-left: 17px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B1B1B1;
+    opacity: 0.6;
+}
+
+.radio_button_registr {
+    margin-top: 31px;
+    display: flex;
 }
 
 
+
+.radio_1 {
+    border: 1px solid #A4A4A4;
+    margin-right: 10px;
+}
+
+.radio_text {
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+    margin-right: 20px;
+}
 
 .item_registr {
     display: flex;
@@ -985,6 +1018,7 @@ summary {
     line-height: 16px;
     width: 359px;
     color: #B1B1B1;
+    margin-top: 15px;
 }
 
 .check {
