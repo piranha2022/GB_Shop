@@ -723,6 +723,7 @@ summary {
     font-size: 14px;
     line-height: 17px;
     color: #000000;
+    margin: 0;
     margin-right: 11px;
 }
 
@@ -757,9 +758,34 @@ summary {
     display: flex;
     max-width: $site_wight;
     width: 100%;
-    margin: auto;
     margin-bottom: 64px;
     justify-content: flex-start;
+}
+
+
+
+.sum_dalail {
+    display: flex;
+    z-index: 20;
+}
+
+.list_filter_text {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    margin-bottom: 11px;
+    margin-left: 5%;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    background: #FFFFFF;
+    width: 25%;
+    box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
 }
 
 .catalog_text {
@@ -961,9 +987,12 @@ summary {
     height: 306px;
     box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
     margin-bottom: 40px;
-
+    transition: all 0.5s;
 }
 
+.item_cart:hover {
+    transform: scale(1.2) translate(-3%, -3%);
+}
 
 
 .text_cart {
@@ -1005,6 +1034,11 @@ summary {
     background: #F5F3F3;
     height: 214px;
     box-shadow: (17px 19px 24px rgba(0, 0, 0, 0.13));
+    transition: all 0.5s;
+}
+
+.cart_bank:hover {
+    transform: scale(1.5) translate(-50px, -50px);
 }
 
 .total {
