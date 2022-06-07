@@ -86,7 +86,6 @@ body {
     flex: 0.5;
 }
 
-/* Хмелевский А.В. */
 .top .heading .top_box-text {
     display: flex;
     animation: scale-up-top .4s cubic-bezier(.39, .575, .565, 1.000) 1s both
@@ -96,7 +95,6 @@ body {
     width: 12px;
     height: 92px;
 }
-
 
 @keyframes scale-up-top {
     0% {
@@ -191,9 +189,6 @@ body {
     color: #FFFFFF;
 }
 
-
-
-
 .card-box .heading_card {
     font-size: 30px;
     line-height: 36px;
@@ -204,8 +199,6 @@ body {
     font-weight: 600;
 }
 
-
-
 .card-box .card_block {
     display: flex;
     justify-content: space-around;
@@ -214,14 +207,11 @@ body {
     background: white;
 }
 
-
-
 .item {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
     background: #F8F8F8;
-    // width: 360px;
     width: 32%;
     height: fit-content;
     box-shadow: slategrey;
@@ -286,9 +276,6 @@ body {
     top: 180px;
 }
 
-
-
-
 .item:hover .add_box {
     display: flex;
     box-shadow: #5D5D5D;
@@ -327,7 +314,6 @@ body {
     box-shadow: 0 0 10px #FFFFFF;
 }
 
-
 .card-box .card_block .card {
     background: #f0e8e8;
     text-decoration: none;
@@ -336,8 +322,6 @@ body {
     display: block;
 
 }
-
-
 
 @keyframes vibrate-1 {
     0% {
@@ -364,7 +348,6 @@ body {
         transform: translate(0)
     }
 }
-
 
 .button {
     font-size: 16px;
@@ -406,7 +389,6 @@ body {
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    // display: none;
     z-index: 11;
 }
 
@@ -422,11 +404,9 @@ body {
     display: none;
 }
 
-
 summary {
     list-style-type: none;
 }
-
 
 .list_menu {
     margin-bottom: 20px;
@@ -504,7 +484,6 @@ summary {
     text-align: center;
     color: #222224;
     margin-top: 30px;
-
 }
 
 .footer_contact {
@@ -592,7 +571,6 @@ summary {
     align-items: center;
 }
 
-
 .text_copy {
     font-size: 16px;
     line-height: 19px;
@@ -608,14 +586,11 @@ summary {
     margin-left: 7px;
 }
 
-
-
 .fa {
     display: flex;
 }
 
 .fa.fa-facebook-f:before {
-
     line-height: 30px;
 }
 
@@ -633,7 +608,6 @@ summary {
 }
 
 .fa.fa-instagram:before {
-
     line-height: 30px;
 }
 
@@ -651,7 +625,6 @@ summary {
 }
 
 .fa.fa-pinterest-p:before {
-
     line-height: 30px;
 }
 
@@ -680,7 +653,6 @@ summary {
     text-align: center;
 }
 
-
 .fa:hover.fa-twitter {
     color: #FFFFFF;
     background: #F16D7F;
@@ -689,7 +661,6 @@ summary {
 .img_card {
     position: relative;
 }
-
 
 .card:hover .card-1 {
     filter: brightness(40%);
@@ -708,7 +679,6 @@ summary {
     align-items: center;
 }
 
-
 .heading_catalog {
     display: flex;
     justify-content: space-around;
@@ -716,7 +686,6 @@ summary {
     width: 100%;
     background: #F1E4E6;
     height: 148px;
-
 }
 
 .filter_catalog {
@@ -758,16 +727,12 @@ summary {
     content: url(img/card/img_filter.svg);
 }
 
-
 .img_filter {
     height: 10px;
     margin-top: 3px;
     width: 15px;
     color: #000000;
 }
-
-.img_size {}
-
 
 .top_text_catalog {
     font-size: 24px;
@@ -804,8 +769,6 @@ summary {
     justify-content: flex-start;
 }
 
-
-
 .sum_dalail {
     display: flex;
     z-index: 20;
@@ -827,11 +790,8 @@ summary {
 }
 
 .line_vert {
-
     margin-right: 11px;
 }
-
-
 
 .list_filter_text {
     text-decoration: none;
@@ -862,7 +822,6 @@ summary {
     padding: 13px 17px;
 }
 
-
 .catalog_text {
     margin-left: 304px;
     margin-right: 11px;
@@ -892,9 +851,7 @@ label {
     margin-left: 10px;
     font-size: 14px;
     line-height: 16px;
-
     color: #6F6E6E;
-
 }
 
 .text_margin_left {
@@ -909,8 +866,6 @@ label {
     margin-top: 16px;
 }
 
-
-
 .product {
     height: 777px;
     background: #F7F7F7;
@@ -922,12 +877,10 @@ label {
 }
 
 .product_card {
-
     background: white;
     margin-top: 130px;
     max-width: $site_wight;
     width: 100%;
-
 }
 
 .arrow_right {
@@ -937,7 +890,6 @@ label {
 }
 
 .arrow_left {
-
     position: absolute;
     top: 364px;
     left: 0;
@@ -946,8 +898,6 @@ label {
 .wooman_collection {
     background: #ffff;
 }
-
-
 
 .mochino {
     display: flex;
@@ -963,8 +913,6 @@ label {
     z-index: 10;
     margin-top: -48px;
 }
-
-
 
 .mohito_collection {
     align-self: center;
@@ -1044,7 +992,6 @@ label {
     image-rendering: auto;
 }
 
-
 .top_registraition {
     background: white;
 
@@ -1095,7 +1042,6 @@ label {
     transform: scale(1.2) translate(-3%, -3%);
 }
 
-
 .text_cart {
     margin-left: 31px;
     margin-top: 22px;
@@ -1108,7 +1054,6 @@ label {
     color: #222222;
     width: 75%;
 }
-
 
 .cart_text_mini {
     margin-bottom: 6px;
@@ -1244,7 +1189,6 @@ label {
     margin-bottom: 21px;
     max-width: 652px;
     margin-left: 128px;
-    ;
 }
 
 .list_regist {
@@ -1290,8 +1234,6 @@ label {
     margin-top: 31px;
     display: flex;
 }
-
-
 
 .radio_1 {
     border: 1px solid #A4A4A4;
