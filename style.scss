@@ -724,6 +724,20 @@ summary {
     line-height: 17px;
     margin: 0;
     margin-right: 11px;
+    display: block;
+}
+
+.filter {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    margin-right: 11px;
+    display: block;
+}
+
+.filter2 {
+    display: none;
 }
 
 .trending_list {
@@ -763,6 +777,7 @@ summary {
     width: 15px;
     color: #000000;
 }
+
 
 .top_text_catalog {
     font-size: 24px;
@@ -1434,6 +1449,12 @@ label {
     .acsessuar_img_bottom {
         width: 100%;
     }
+
+    .page-catalog {
+        justify-content: space-around;
+    }
+
+
 }
 
 @media (min-width: 375px) and (max-width:767px) {
@@ -1536,4 +1557,67 @@ label {
         left: 35%;
     }
 
+    .heading_catalog {
+        flex-wrap: wrap;
+    }
+
+    .top_text_catalog {
+        width: 100%;
+        text-align: center;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .filter2 {
+        display: block;
+    }
+
+    .item_list_1 {
+        margin-left: 13%;
+    }
+
+    .img_filter {
+        width: 80%;
+        height: 80%;
+    }
+
+    .category {
+        width: 50%;
+    }
+
+    .trending_list {
+        width: 50%;
+    }
+
+    .check_size {
+        width: 20%;
+    }
+
+    .price {
+        width: 27%;
+        transform: translate(-54px, 0px);
+    }
+
+    .filter_catalog {
+        margin-left: -20%;
+    }
+
+    .top .head {
+        padding: 0% 2%
+    }
+
+    .left_menu {
+        padding-left: 0;
+    }
+
+    .riht_heading_catalog {
+        margin-bottom: 46px;
+    }
+
+    .top_text_catalog {
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
 }
