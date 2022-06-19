@@ -1514,6 +1514,14 @@ label {
     .item_form_cart {
         width: 40%;
     }
+
+    .mochino {
+        width: 100%;
+    }
+
+    .mochino_button {
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 375px) and (max-width:767px) {
@@ -1793,4 +1801,38 @@ label {
     .footer_contact {
         padding-top: 96px;
     }
+
+
+
+
+    .mohito_text {
+        width: 88%;
+    }
+
+    .mochino {
+        width: 100%;
+    }
+
+    .mohito_choose {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .line {
+        width: 35%;
+    }
+
+    .product_card {
+        margin-top: 65px;
+    }
+
+    .product {
+        margin: auto 3%;
+    }
+
+
+    .wooman_collection {
+        margin: auto 3%;
+    }
+
 }
