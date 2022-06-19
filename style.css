@@ -2051,5 +2051,10 @@ label {
   .wooman_collection {
     margin: auto 3%;
   }
+  .menu {
+    -webkit-transform: translate(-4px, -27px);
+            transform: translate(-4px, -27px);
+    width: 45%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
