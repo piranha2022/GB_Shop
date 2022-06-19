@@ -1466,7 +1466,7 @@ label {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 73px;
+  margin-top: 32px;
 }
 
 .button_cart_item_left {
@@ -1550,7 +1550,6 @@ label {
 .input_registr {
   margin-top: 20px;
   height: 44px;
-  width: 358px;
   padding-left: 17px;
   padding-right: 17px;
   font-weight: 300;
@@ -1712,6 +1711,10 @@ label {
   }
   .reseption {
     padding-top: 54px;
+    width: 100%;
+  }
+  .text_reseption {
+    width: 35%;
   }
   .button {
     margin-bottom: 65px;
@@ -1724,11 +1727,65 @@ label {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
+  .top_cart {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .left_cart {
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .button_cart {
+    width: 80%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .right_cart {
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 0;
+  }
+  .cart_bank {
+    margin-top: 87px;
+    width: 45%;
+  }
+  .heading_registr {
+    margin-left: 8%;
+  }
+  .button_cart_item_left {
+    margin-right: 0;
+  }
+  .button_mini_cart {
+    margin: 23px auto 48px;
+    margin-left: 0;
+    margin: 23px auto 48px;
+    margin-left: 0;
+    padding: 0;
+    width: 100px;
+    height: 34px;
+    line-height: 31px;
+    text-align: center;
+    color: #4A4A4A;
+  }
+  .button_cart_item {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .item_form_cart {
+    width: 40%;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
   .top .head {
-    padding: 2% 5%;
+    padding: 2% 2%;
   }
   .top_img {
     display: none;
@@ -1852,7 +1909,7 @@ label {
     margin-left: -20%;
   }
   .top .head {
-    padding: 0% 2%;
+    padding: 2% 2%;
   }
   .left_menu {
     padding-left: 0;
@@ -1863,6 +1920,108 @@ label {
   .top_text_catalog {
     margin-top: 24px;
     margin-bottom: 32px;
+  }
+  .top_cart {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .left_cart {
+    width: 100%;
+    margin-top: 39px;
+  }
+  .item_cart {
+    width: 100%;
+    height: 188px;
+    margin-bottom: 32px;
+  }
+  .heading_cart {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 25px;
+  }
+  .text_cart_paragraf {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cart_text_mini {
+    margin-bottom: 4px;
+    margin-left: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .text_cart {
+    margin-left: 17px;
+    margin-top: 13px;
+  }
+  .cart_price {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .button_cart_item_left {
+    width: 39%;
+    padding: 8px 17px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 12px;
+    margin: 0;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  .button_cart_item_left::first-letter {
+    text-transform: uppercase;
+  }
+  .button_cart_item {
+    width: 39%;
+    padding: 8px 17px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 12px;
+    margin: 0;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  .button_cart_item::first-letter {
+    text-transform: uppercase;
+  }
+  .heading_registr {
+    margin: 0 auto;
+  }
+  .top_cart {
+    margin: 0 3%;
+  }
+  .right_cart {
+    width: 100%;
+    margin-top: 48px;
+  }
+  .button_cart {
+    margin-top: 0;
+  }
+  .your_name {
+    margin-top: 0px;
+  }
+  .button_mini_cart {
+    margin: 23px auto 48px;
+    margin-left: 0;
+    margin: 23px auto 48px;
+    margin-left: 0;
+    padding: 0;
+    width: 100px;
+    height: 34px;
+    line-height: 31px;
+    color: #4A4A4A;
+  }
+  .footer_contact {
+    padding-top: 96px;
   }
 }
 /*# sourceMappingURL=style.css.map */
